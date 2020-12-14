@@ -13,11 +13,10 @@
 img {
     max-width: 100%;
 }
-
 .custom-background {
     background-color: #1c1c1c;
 }
-/* NAVIGATION BAR */
+/* SITE TITLE */
 .site-title {
     display: inline-block;
     position: relative;
@@ -37,8 +36,9 @@ img {
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding-left: 20px;
+    padding-left: 30px;
 }
+/* NAVIGATION BAR */
 .myNav {
     display: flex;
     justify-content: space-between;
@@ -79,4 +79,8 @@ a:hover {
 }
 a:active {
     text-decoration: none;
+}
+/* SECTION-1 */
+.main-image {
+    padding: 0px 15px 0px 15px;
 }
